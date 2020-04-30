@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { createBrowserHistory } from "history";
+//import { createBrowserHistory } from "history";
+import { createHashHistory } from "history";
 import { Router, Route, Switch } from "react-router-dom";
 
 import "assets/scss/material-kit-react.scss?v=1.8.0";
@@ -11,7 +12,8 @@ import HomepageHy from "views/HomePageHy/HomepageHy.js";
 import GamePageEn from "views/GamePageEn/GamePageEn.js";
 import GamePageHy from "views/GamePageHy/GamePageHy.js";
 
-var hist = createBrowserHistory();
+//var hist = createBrowserHistory();
+var hist =createHashHistory();
 
 ReactDOM.render(
   <Router history={hist}>
