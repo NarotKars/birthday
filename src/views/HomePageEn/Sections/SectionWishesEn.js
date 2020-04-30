@@ -34,7 +34,7 @@ export default function SectionBasics() {
         wisherName: name,
         wisherWish: wish
       }
-      fetch('https://zzzzzzzzz.live/.netlify/functions/CreateWish', {
+      fetch('https://www.zzzzzzzzz.live/.netlify/functions/CreateWish', {
         body: JSON.stringify(myWish),
         method: 'POST'
       }).then(response => {

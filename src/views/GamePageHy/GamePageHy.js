@@ -101,7 +101,7 @@ export default function LoginPage(props) {
         playerName: name,
         playerResult: rightAnswerCount
       }
-      fetch('https://dazzling-fermat-ce242f.netlify.app/.netlify/functions/GameResult', {
+      fetch('https://www.zzzzzzzzz.live/.netlify/functions/GameResult', {
         body: JSON.stringify(result),
         method: 'POST'
       }).then(response => {
