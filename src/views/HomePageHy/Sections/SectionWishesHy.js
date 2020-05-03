@@ -126,7 +126,7 @@ export default function SectionBasics() {
         :
         <GridContainer>
           <GridItem align="center">
-            <h1>Շնորհակալ❤️թյուն</h1>
+            <h3>Շնորհակալ❤️թյուն</h3>
           <Favorite className={classes.icons} />
           </GridItem>
         </GridContainer>
