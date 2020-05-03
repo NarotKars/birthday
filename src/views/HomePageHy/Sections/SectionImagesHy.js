@@ -120,6 +120,7 @@ export default function SectionTypography() {
                 }
               />
               <h4 align="center">Բնական ժպիտը<span role="img" aria-label="Red heart">❤️</span></h4>
+              <div className={classes.space20} />
             </GridItem>
             <GridItem xs={12} sm={6} >
               <img
@@ -134,6 +135,7 @@ export default function SectionTypography() {
                 }
               />
               <h4 align="center">Երբ բան չունես անելու<span role="img" aria-label="Face with tears of joys">😂</span></h4>
+              <div className={classes.space20} />
             </GridItem>
             <GridItem xs={12} sm={6} >
               <img

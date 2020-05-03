@@ -236,7 +236,7 @@ export default function LoginPage(props) {
                 {questionCount===0 ?
                 <Card className={classes[cardAnimaton]}>
                   <CardHeader color="primary" className={classes.cardHeader}>
-                    <h4>Enter your name and answer to 7 questions.</h4>
+                    <h4>Enter your name and answer the 7 questions.</h4>
                   </CardHeader>
                   <CardBody>
                   { isEnteredName===true ?
