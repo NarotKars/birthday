@@ -59,7 +59,7 @@ export default function SectionBasics() {
       <div id="buttons">
           <div className={classes.title}>
             <h3>
-            🎈Շնորհավորեք Գրետայի ծնունդը🎈
+            <span role="img" aria-label="Ballon">🎈</span>Շնորհավորեք Գրետայի ծնունդը<span role="img" aria-label="Ballon">🎈</span>
               <br />
             </h3>
           </div>

@@ -8,7 +8,6 @@ import HeaderHy from "components/Header/HeaderHy.js";
 import FooterHy from "components/Footer/FooterHy.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import Button from "components/CustomButtons/Button.js";
 import Parallax from "components/Parallax/Parallax.js";
 import HeaderLinksHy from "components/Header/HeaderLinksHy.js";
 import SectionImagesHy from "views/HomePageHy/Sections/SectionImagesHy.js";
