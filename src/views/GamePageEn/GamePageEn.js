@@ -141,11 +141,7 @@ export default function LoginPage(props) {
       setHelperText("😍😍😍😍😍😍");
       incremetRightAnswerCount(rightAnswerCount => rightAnswerCount+ 1);
     }
-    else if(questionCount===4) 
-    {
-      setHelperText("😍😍😍😍😍😍");
-      incremetRightAnswerCount(rightAnswerCount => rightAnswerCount+ 1);
-    }
+    else if(questionCount===4) setHelperText("😭😭😭😭😭😭");
     else if(questionCount===5) setHelperText("😭😭😭😭😭😭");
     else if(questionCount===6) setHelperText("😭😭😭😭😭😭");
     else if(questionCount===7) setHelperText("😭😭😭😭😭😭");
@@ -159,13 +155,21 @@ export default function LoginPage(props) {
       setHelperText("😍😍😍😍😍😍");
       incremetRightAnswerCount(rightAnswerCount => rightAnswerCount+ 1);
     }
-    else if(questionCount===2) setHelperText("😭😭😭😭😭😭");
+    else if(questionCount===2)
+    {
+      setHelperText("😍😍😍😍😍😍");
+      incremetRightAnswerCount(rightAnswerCount => rightAnswerCount+ 1);
+    }
     else if(questionCount===3) 
     {
       setHelperText("😍😍😍😍😍😍");
       incremetRightAnswerCount(rightAnswerCount => rightAnswerCount+ 1);
     }
-    else if(questionCount===4) setHelperText("😭😭😭😭😭😭");
+    else if(questionCount===4)
+    {
+      setHelperText("😍😍😍😍😍😍");
+      incremetRightAnswerCount(rightAnswerCount => rightAnswerCount+ 1);
+    }
     else if(questionCount===5) 
     {
       setHelperText("😍😍😍😍😍😍");
@@ -186,11 +190,7 @@ export default function LoginPage(props) {
       incremetRightAnswerCount(rightAnswerCount => rightAnswerCount+ 1);
     }
     else if(questionCount===4) setHelperText("😭😭😭😭😭😭");
-    else if(questionCount===5)
-    {
-      setHelperText("😍😍😍😍😍😍");
-      incremetRightAnswerCount(rightAnswerCount => rightAnswerCount+ 1);
-    }
+    else if(questionCount===5) setHelperText("😭😭😭😭😭😭");
     else if(questionCount===6) setHelperText("😭😭😭😭😭😭");
     else if(questionCount===7)
     {
@@ -203,22 +203,14 @@ export default function LoginPage(props) {
   {
     setSelectedEnabled("d");
     if(questionCount===1) setHelperText("😭😭😭😭😭😭");
-    else if(questionCount===2) 
-    {
-      setHelperText("😍😍😍😍😍😍");
-      incremetRightAnswerCount(rightAnswerCount => rightAnswerCount+ 1);
-    }
+    else if(questionCount===2)  setHelperText("😭😭😭😭😭😭");
     else if(questionCount===3) 
     {
       setHelperText("😍😍😍😍😍😍");
       incremetRightAnswerCount(rightAnswerCount => rightAnswerCount+ 1);
     }
     else if(questionCount===4) setHelperText("😭😭😭😭😭😭");
-    else if(questionCount===5)
-    {
-      setHelperText("😍😍😍😍😍😍");
-      incremetRightAnswerCount(rightAnswerCount => rightAnswerCount+ 1);
-    }
+    else if(questionCount===5) setHelperText("😭😭😭😭😭😭");
     else if(questionCount===6) {
       setHelperText("😍😍😍😍😍😍");
       incremetRightAnswerCount(rightAnswerCount => rightAnswerCount+ 1);
