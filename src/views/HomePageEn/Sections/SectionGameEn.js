@@ -22,7 +22,7 @@ export default function SectionBasics() {
       <div id="buttons">
           <div className={classes.title}>
             <h3>
-              Finally, play the game and check how much do you know Greta.🤔😇😈
+              Finally, play the game and check how much you know Greta.🤔😇😈
             </h3>
           </div>
       </div>
