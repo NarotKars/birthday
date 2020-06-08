@@ -15,6 +15,7 @@ import image5 from "assets/img/faces/image5.jpg";
 import image6 from "assets/img/faces/image6.jpg";
 import image7 from "assets/img/faces/image7.jpg";
 import image8 from "assets/img/faces/image8.jpg";
+import image from "assets/img/faces/removed.jpg";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/typographyStyle.js";
 
