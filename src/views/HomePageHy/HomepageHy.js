@@ -39,9 +39,6 @@ export default function Components(props) {
             <GridItem>
               <div className={classes.brand}>
                 <h1 className={classes.titleHy}>Ծնունդդ Շնորհավոր</h1>
-                <h3 className={classes.subtitle}>
-                  Նա, ում սիրում եմ մե՜ծ ամպից էլ ավելի
-                </h3>
               </div>
             </GridItem>
           </GridContainer>
