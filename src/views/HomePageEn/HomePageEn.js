@@ -42,6 +42,9 @@ export default function Components(props) {
             <GridItem>
               <div className={classes.brand}>
                 <h1 className={classes.title}>HAPPY BIRTHDAY</h1>
+                <h3 className={classes.subtitle}>
+                  To the one I love more than a big cloud
+                </h3>
               </div>
             </GridItem>
           </GridContainer>
